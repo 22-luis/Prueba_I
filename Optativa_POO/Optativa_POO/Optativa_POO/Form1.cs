@@ -175,10 +175,9 @@ namespace Optativa_POO
 
         private void btn_gualterpistola_Click(object sender, EventArgs e)
         {
-            using (frm_image otherForm = new frm_image())
-            {
-               otherForm.ShowDialog();
-            }
+            frm_image otherForm = new frm_image();
+            
+            otherForm.ShowDialog();
         }
 
        

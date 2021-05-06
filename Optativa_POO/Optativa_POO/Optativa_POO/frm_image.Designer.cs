@@ -31,14 +31,13 @@ namespace Optativa_POO
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_image));
             this.pic_mariopistola = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize) (this.pic_mariopistola)).BeginInit();
             this.SuspendLayout();
             // 
             // pic_mariopistola
             // 
-            this.pic_mariopistola.Image = ((System.Drawing.Image) (resources.GetObject("pic_mariopistola.Image")));
+            this.pic_mariopistola.Image = global::Optativa_POO.Properties.Resources.Mariopistola;
             this.pic_mariopistola.Location = new System.Drawing.Point(14, 16);
             this.pic_mariopistola.Name = "pic_mariopistola";
             this.pic_mariopistola.Size = new System.Drawing.Size(388, 387);

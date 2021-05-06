@@ -230,6 +230,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(396, 509);
             this.Controls.Add(this.btn_color5);
             this.Controls.Add(this.btn_color8);
@@ -247,8 +248,8 @@
             this.Controls.Add(this.btn_gualterpistola);
             this.Controls.Add(this.btn_color1);
             this.Controls.Add(this.lbl_top);
+            this.Location = new System.Drawing.Point(15, 15);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
         }
 
