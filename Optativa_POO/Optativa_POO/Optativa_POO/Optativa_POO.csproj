@@ -52,19 +52,64 @@
         <Compile Include="Form1.Designer.cs">
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
+        <Compile Include="frm_A.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frm_A.Designer.cs">
+          <DependentUpon>frm_A.cs</DependentUpon>
+        </Compile>
+        <Compile Include="frm_E.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frm_E.Designer.cs">
+          <DependentUpon>frm_E.cs</DependentUpon>
+        </Compile>
+        <Compile Include="frm_I.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frm_I.Designer.cs">
+          <DependentUpon>frm_I.cs</DependentUpon>
+        </Compile>
         <Compile Include="frm_image.cs">
           <SubType>Form</SubType>
         </Compile>
         <Compile Include="frm_image.Designer.cs">
           <DependentUpon>frm_image.cs</DependentUpon>
         </Compile>
+        <Compile Include="frm_O.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frm_O.Designer.cs">
+          <DependentUpon>frm_O.cs</DependentUpon>
+        </Compile>
+        <Compile Include="frm_U.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frm_U.Designer.cs">
+          <DependentUpon>frm_U.cs</DependentUpon>
+        </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <EmbeddedResource Include="Form1.resx">
           <DependentUpon>Form1.cs</DependentUpon>
         </EmbeddedResource>
+        <EmbeddedResource Include="frm_A.resx">
+          <DependentUpon>frm_A.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="frm_E.resx">
+          <DependentUpon>frm_E.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="frm_I.resx">
+          <DependentUpon>frm_I.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="frm_image.resx">
           <DependentUpon>frm_image.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="frm_O.resx">
+          <DependentUpon>frm_O.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="frm_U.resx">
+          <DependentUpon>frm_U.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>

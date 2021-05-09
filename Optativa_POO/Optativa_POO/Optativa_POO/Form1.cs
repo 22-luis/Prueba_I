@@ -17,6 +17,8 @@ namespace Optativa_POO
             InitializeComponent();
         }
 
+        public delegate void Vowels();
+
         private void btn_color1_Click(object sender, EventArgs e)
         {
             lbl_top.BackColor = Color.Red; 
@@ -180,6 +182,43 @@ namespace Optativa_POO
             otherForm.ShowDialog();
         }
 
-       
+        
+        public void VowelA()
+        {
+            frm_A A = new frm_A();
+            A.ShowDialog();
+        }
+        public void VowelE()
+        {
+            frm_E E = new frm_E();
+            E.ShowDialog();
+        }
+        public void VowelI()
+        {
+            frm_I I = new frm_I();
+            I.ShowDialog();
+        }
+        public void VowelO()
+        {
+            frm_O O = new frm_O();
+            O.ShowDialog();
+        }
+        public void VowelU()
+        {
+            frm_U U = new frm_U();
+            U.ShowDialog();
+        }
+        private void btn_A_Click(object sender, EventArgs e)
+        {
+            Vowels vowel;
+
+            vowel = VowelA;
+            vowel += VowelE;
+            vowel += VowelI;
+            vowel += VowelO;
+            vowel += VowelU;
+
+            vowel.Invoke();
+        }
     }
 }
