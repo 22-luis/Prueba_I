@@ -249,6 +249,8 @@
             this.Controls.Add(this.btn_color1);
             this.Controls.Add(this.lbl_top);
             this.Location = new System.Drawing.Point(15, 15);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.ResumeLayout(false);
         }

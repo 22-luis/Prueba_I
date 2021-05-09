@@ -51,6 +51,8 @@ namespace Optativa_POO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(414, 450);
             this.Controls.Add(this.pic_mariopistola);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frm_image";
             this.Text = "frm_image";
             ((System.ComponentModel.ISupportInitialize) (this.pic_mariopistola)).EndInit();
