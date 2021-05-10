@@ -154,6 +154,7 @@
             this.btn_Ola.TabIndex = 11;
             this.btn_Ola.Text = "Ola";
             this.btn_Ola.UseVisualStyleBackColor = true;
+            this.btn_Ola.Click += new System.EventHandler(this.btn_Ola_Click);
             // 
             // btn_color222
             // 

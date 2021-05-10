@@ -18,6 +18,7 @@ namespace Optativa_POO
         }
 
         public delegate void Vowels();
+        public delegate void Phrase();
 
         private void btn_color1_Click(object sender, EventArgs e)
         {
@@ -219,6 +220,35 @@ namespace Optativa_POO
             vowel += VowelU;
 
             vowel.Invoke();
+        }
+        
+        public void Ola()
+        {
+            MessageBox.Show("ola", "Ola", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void K()
+        {
+            MessageBox.Show("k", "Ola", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void Ase()
+        {
+            MessageBox.Show("ase", "Ola", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void Form1_BackColorChanged(object sender, EventArgs e)
+        {
+            BackColor = Color.Purple;
+        }
+        private void btn_Ola_Click(object sender, EventArgs e)
+        {
+            Form1_BackColorChanged(sender, e);
+
+            Phrase word;
+
+            word = Ola;
+            word += K;
+            word += Ase;
+
+            word.Invoke();
         }
     }
 }
